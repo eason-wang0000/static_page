@@ -1,0 +1,232 @@
+body, div, ul, li, a, p, h3, h4 {
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-color: #E9E9E9;
+	background-position: 0 41px;
+}
+.top {
+	width: 100%;
+	height: 40px;
+	background: #000;	
+}
+.top ul li {
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	list-style: none;
+}
+.top .logo {
+	height: 40px;
+	background-image: url(../images/ico.png);
+	background-size: 594px 40px;
+	width: 92px;
+	margin-right: 10px;
+}
+.top ul li a {
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+}
+.top ul a:hover {
+	background-color: #383838;
+}
+.top ul .setting {
+	float: right;
+}
+.main {
+	max-width: 1024px;
+	margin: auto;
+}
+.main .header {
+	margin-top: 100px;
+	height: 150px;
+}
+.user-info .img {
+	float: left;
+}
+.user-info .img img {
+	border: 3px solid #fff;
+	margin-right: 20px;
+}
+.user-name img {
+	width: 60px;
+}
+.user-name p {
+	display: block;
+	color: #ccc;
+}
+.user-info .user-name {
+	
+	margin-left: 150px;
+}
+.user-name .user-menu li {
+	margin-top: 15px;
+	float: left;
+	margin-right: 40px;
+	list-style: none;
+}
+.user-name .user-menu li a {
+	color: #999;
+	text-decoration: none;
+}
+.user-info .user-name .username {
+	display: block;
+	font-size: 20px;
+	color: #ccc;
+}
+.show-index {
+	position: relative;
+	color: #a6a6a6;
+	font-size: 14px;
+}
+.show-index .left-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 520px;
+	width: 170px;
+	background-color: #2e2e2e;
+	border-radius: 5px;
+}
+.show-index .this-menu {
+	padding: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid #1f1f1f;
+}
+.show-index .left-menu ul {
+	text-align: center;
+	margin-top: 20px;
+	line-height: 40px;
+}
+.show-index .left-menu ul li {
+	list-style: none;
+}
+.show-index .left-menu ul li a {
+	text-decoration: none;
+	color: #a6a6a6;
+}
+.show-index .left-menu ul li:hover {
+	background-color: #000;
+}
+.show-index .center-show {
+	background-color: #2e2e2e;
+	margin-left: 180px;
+	margin-right: 310px;
+	border-radius: 5px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+
+}
+.show-index .center-show h4 {
+	padding: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid #1f1f1f;
+}
+.motion-list .friend-info {
+	display: block;
+}
+
+.motion-list .friend-info li {
+	margin-top: 20px;
+	float: left;
+	list-style: none;
+}
+.motion-list .friend-info li img {
+	width: 45px;
+	border-radius: 50%;
+	margin: 0 15px;
+}
+.motion-list .motion-text {
+	clear: both;
+	padding: 15px;
+	text-indent: 2em;
+}
+.motion-list .motion-text p span a {
+	margin-left: 25px;
+	text-decoration: none;
+}
+.motion-list .motion-text img {
+	width: 350px;
+	margin: 10px 30px;
+}
+.motion-list .motion-text p {
+	margin-top: 2px;
+}
+.motion-list .motion-text p span:first-child {
+	display: inline-block;
+	float: left;
+}
+.motion-list .motion-text p span:last-child {
+	display: inline-block;
+	float: right;
+}
+.motion-list .motion-text p:last-child {
+	color: #fff;
+}
+.motion-list .motion-text p a {
+	color: #fff;
+}
+.motion-list .line {
+	margin-top: 20px;
+	border-bottom: 1px solid #000;
+}
+.motion-list .review {
+	background-color: #2e2e2e;
+}
+.motion-list .review ul li {
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+}
+.motion-list .review ul li img {
+	width: 45px;
+	border-radius: 50%;
+	margin: 0 15px;
+}
+.right-data {
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 520px;
+	background-color: #2e2e2e;
+	border-radius: 5px;
+}
+.right-data h4 {
+	padding: 10px;
+	padding-left: 20px;
+	border-bottom: 1px solid #000;
+}
+.right-data ul li {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	list-style: none;
+}
+.right-data ul li img {
+	width: 72px;
+	border-radius: 10px;
+
+}
+.footer {
+	height: 50px;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.footer p a {
+	text-decoration: none;
+	color: #000;
+}
+.footer p a:hover {
+	text-decoration: underline;
+}
